@@ -11,30 +11,44 @@ body {
     flex-direction: column;
 }
 
+/* TOP */
 .top-container {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    align-content: center;
+    align-items: center;
 }
 
 .top-text {
     font-size: 20px;
 }
 
+/* IMAGE */
 .image-container {
     display: flex;
     justify-content: center;
 }
 
+/* SONG INFORMATION */
 .song-info-container {
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.song-text-container {
+    flex-direction: column;
+}
+.song-text {
+    font-size: 20px;
 }
 
+/* PROGRESSBAR */
 .progress-container {
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
 }
 
 #myProgress {
@@ -49,6 +63,7 @@ body {
     background-color: rgb(151, 95, 243);
 }
 
+/* PLAYER */
 .player-container {
     display: flex;
         flex-direction: row;
