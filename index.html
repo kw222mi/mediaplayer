@@ -13,33 +13,55 @@
 
 <body>
     <main>
-        <div>
+
+        <div class="mediaplayer-container">
+        <div class="top-container">
         <span class="material-icons">
             arrow_back_ios
         </span>
-        <p>Playlist - Study</p>
+        <p class="top-text">Playlist - Study</p>
         <span class="material-icons">
             more_vert
         </span>
         </div>
 
+        <div class="image-container">
         <img src="song-image.png">
+        </div>
 
-        <div class="player">
+        <div class="song-info-container">
+            <span class="material-icons">
+                add_circle
+            </span>
+            <p>Artist</p>
+            <p>Song</p>
+            <span class="material-icons">
+                favorite
+            </span>
+        </div>
+
+        <div class="progress-container">
+            <p>0:44</p>
+        <div id="myProgress">
+            <div id="myBar"></div>
+        </div>
+        <p>3:04</p>
+        </div>
+
+        <div class="player-container">
         <span class="material-icons">
                 skip_previous
         </span>
-
         <span class="material-icons">
             play_circle
         </span>
-
         <span class="material-icons">
             skip_next
         </span>
         <span class="material-icons">
             shuffle
         </span>
+        </div>
 
         </div>
     </main>

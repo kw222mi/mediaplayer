@@ -1,0 +1,55 @@
+body {
+    width: 500px;
+    margin: 0 auto;
+    background-color: pink;
+    border: 2px;
+    
+}
+
+.mediaplayer-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.top-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.top-text {
+    font-size: 20px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+}
+
+.song-info-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.progress-container {
+    display: flex;
+    flex-direction: row;
+}
+
+#myProgress {
+    width: 100%;
+    background-color: grey;
+    height: 10px;
+}
+
+#myBar {
+    width: 1%;
+    height: 10px;
+    background-color: rgb(151, 95, 243);
+}
+
+.player-container {
+    display: flex;
+        flex-direction: row;
+}
