@@ -1,18 +1,55 @@
 body {
-    width: 400px;
+    width: 800px;
     margin: 0 auto;
    border: solid;
    background-color: pink;
-    
-    
 }
 
+.playlist-and-player {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+/* PLAYLIST */
+.playlist-container {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(252, 248, 248);
+}
+
+.song-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border: solid;
+    
+}
+.list-image {
+ width: 25%;
+
+}
+.list-text-container {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.list-text {
+    font-size: 20px;
+}
+
+
+/* MEDIAPLAYER */
 .mediaplayer-container {
     display: flex;
     flex-direction: column;
 }
 
-/* TOP */
+/* PLAYER - TOP */
 .top-container {
     display: flex;
     flex-direction: row;
