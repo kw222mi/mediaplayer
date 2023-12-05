@@ -1,8 +1,9 @@
 body {
-    width: 500px;
+    width: 400px;
     margin: 0 auto;
-    background-color: pink;
-    border: 2px;
+   border: solid;
+   background-color: pink;
+    
     
 }
 
@@ -17,6 +18,7 @@ body {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    margin-bottom: 40px;
 }
 
 .top-text {
@@ -27,6 +29,8 @@ body {
 .image-container {
     display: flex;
     justify-content: center;
+    margin-bottom: 80px;
+    
 }
 
 /* SONG INFORMATION */
@@ -43,28 +47,45 @@ body {
     font-size: 20px;
 }
 
+#song {
+    font-size: 0.9em;
+    font-style: italic;
+}
+
 /* PROGRESSBAR */
 .progress-container {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
+    margin-bottom: 20px;
+   
 }
 
 #myProgress {
-    width: 100%;
+    width: 60%;
     background-color: grey;
     height: 10px;
+    
 }
 
 #myBar {
     width: 1%;
     height: 10px;
     background-color: rgb(151, 95, 243);
+    
+}
+
+.progress-text {
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 /* PLAYER */
 .player-container {
     display: flex;
-        flex-direction: row;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 40px;
 }
